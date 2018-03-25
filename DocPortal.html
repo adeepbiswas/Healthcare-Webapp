@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Portal</title>
+  <link rel="spreadsheet" type="text/css" href="lognsignsty.css">
+  <style type="text/css">
+    .top{
+      height:150px;
+      width: 100%;
+      position:relative;
+      background-color:black;
+      color:white;
+    }
+    .headtext{
+      color: white;
+      font-size:75px;
+      position:relative;
+      top:30px;
+      left:260px;
+    }
+    .bod{
+      margin:0px;
+      padding:0px;
+      background-color:#e6e6e6;
+    }
+    .footer{
+      background-color:black;
+      color: black;
+      position: fixed;
+      bottom: 10px;
+      right:10px;
+      left:10px;
+      height:30px;
+    }
+
+
+    .button1{
+      display:block;
+      height:50px;
+      width:300px;
+      position:relative;
+      top:150px;
+      left:400px;
+      background-color:dodgerblue;
+      color:white;
+      text-align:center;
+      text-decoration:none;
+      padding:15px;
+      font-size:35px;
+    }
+    .button2{
+      display:block;
+      height:50px;
+      width:300px;
+      position:relative;
+      top:70px;
+      left:750px;
+      background-color:dodgerblue;
+      color:white;
+      text-align:center;
+      text-decoration:none;
+      padding:15px;
+      font-size:35px;
+    }
+    .text{
+      position:relative;
+      top:100px;
+      left:500px;
+      color:#f9e6ff;
+    }
+
+
+  </style>
+</head>
+<body class="bod">
+<div class="top">
+  <span class="headtext">Portal</span>
+</div>
+
+<div>
+  <h2>Search for Patient Records</h2>
+  <form class="SearchForm" onsubmit="return SubmitTest()" style="left-margin:auto;right:margin:auto;padding-top:100px";>
+    <div class="search">
+      <label for="searchId"/>
+      <input type="text" name="SearchEntry" id="searchId" placeholder="Enter Name of the Patient"/>
+      <br/>
+      <input type="submit" id="SearchSubmit">
+      <br/>
+      <output id="AddressOutput" typeof="text" datatype="string"/>
+      <br/>
+      <output id="ContactOutput" datatype="string" typeof="text"/>
+    </div>
+  </form>
+</div>
+
+<div>
+  <h2>Check Work Schedule</h2>
+  <form class="SearchForm" onsubmit="return SubmitTest()" style="left-margin:auto;right:margin:auto;padding-top:100px";>
+    <div class="search">
+      <label for="searchId"/>
+      <input type="week" name="SearchEntry" id="searchId" placeholder="Enter Day"/>
+      <br/>
+      <input type="submit" id="SearchSubmit">
+      <br/>
+      <output id="AddressOutput" typeof="text" datatype="string"/>
+      <br/>
+      <output id="ContactOutput" datatype="string" typeof="text"/>
+    </div>
+  </form>
+</div>
+
+<div>
+  <h2>See appointments</h2>
+  <form class="SearchForm" onsubmit="return SubmitTest()" style="left-margin:auto;right:margin:auto;padding-top:100px";>
+    <div class="search">
+      <label for="searchId"/>
+      <input type="date" name="SearchEntry" id="searchId" placeholder="Enter Date of the month"/>
+      <br/>
+      <input type="submit" id="SearchSubmit">
+      <br/>
+      <output id="AddressOutput" typeof="text" datatype="string"/>
+      <br/>
+      <output id="ContactOutput" datatype="string" typeof="text"/>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+.top{
+	height:150px;
+	width: 100%;
+	position:relative;
+	background-color:rgba(64, 92, 170, 0.877);
+	color:white;
+	}
+.headtext{
+	color: white;
+	font-family: 'Palatino';
+	font-size:75px;
+	position:relative;
+	top:30px;
+	left:260px;
+	}
+.button1{
+	
+	display:block;
+	height:50px;
+	width:300px;
+	position: absolute;
+	top:320px;
+	left:400px;
+	background-color:rgba(64, 92, 170, 0.957);
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	padding:15px;
+	font-size:35px;
+	border-radius: 15px;
+	}
+.button2{
+	border-radius: 15px;
+	display:block;
+	height:50px;
+	width:300px;
+	position: absolute;
+	top:320px;
+	left:750px;
+	background-color:rgba(64, 92, 170, 0.959);
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	padding:15px;
+	font-size:35px;
+	}
+.text{
+	position:relative;
+	top:100px;
+	left:500px;
+	}
+.bod{
+	margin:0px;
+	padding:0px;
+	background-image: url("healthcare.jpg");
+	}
+.footer{
+	background-color:black;
+	color: black;
+	position: fixed;
+	bottom: 10px;
+	right:10px;
+	left:10px;
+	height:30px;
+}
+

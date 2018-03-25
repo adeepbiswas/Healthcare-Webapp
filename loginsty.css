@@ -1,0 +1,98 @@
+.top{
+	height:150px;
+	width: 100%;
+	position:relative;
+	background-color:rgba(64, 92, 170, 0);
+	color:white;
+	}
+.headtext{
+	color: rgba(255, 255, 255, 0.83);
+	font-size:75px;
+	position:relative;
+	top:30px;
+	left:60px;
+	font-family: 'Impact'
+	}
+.bod{
+	margin:0px;
+	padding:0px;
+	background-color:#e6e6e6;
+	background: url("startshere.jpg")
+	}
+span.y{
+	position:relative;
+	color:rgba(64, 92, 170, 0.877);
+	left:1100px;
+}
+.button{
+	background-color:rgba(64, 92, 170, 0.877);
+	position:relative;
+	left:142px;
+	height:25px;
+	width:50px;
+	top:60px;
+	color:white;
+	display:block;
+	padding: 10px 10px;
+	border-radius: 15px;
+	
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid rgba(64, 92, 170, 0.877);
+	position:relative;
+	left:55px;
+	top:50px;
+}
+input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border: 2px solid rgba(64, 92, 170, 0.877);
+	position:relative;
+	left:55px;
+	top:50px;
+}
+.block{
+	background-color:white;
+	position:relative;
+	top:120px;
+	left:550px;
+	height:300px;
+	width:400px;
+	border-top: 5px solid rgba(64, 92, 170, 0.877);
+	transition: 1s;
+    animation-name: fader;
+    animation-duration: 1.3s;
+}
+span.xyz{
+	padding-left:55px;
+	padding-top:50px;
+	position:relative;
+	top:30px;
+}
+.footer{
+	background-color:rgba(64, 92, 170, 0.877);
+	color: black;
+	position: fixed;
+	bottom: 10px;
+	right:10px;
+	left:10px;
+	height:30px;
+}
+.fpsw{
+	text-decoration:none;
+	color:rgba(64, 92, 170, 0.877);
+	position:relative;
+	top:50px;
+	left:55px;
+}
+
+@keyframes fader{
+    from{ transform: translateX(-1500px)}
+    to{transform: translateX(0px)}
+}

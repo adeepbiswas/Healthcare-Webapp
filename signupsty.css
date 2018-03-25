@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+	padding:0px;
+    margin:0px;
+    background: url("love.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-color: rgb(34,34,34)
+	}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-family:"courier";
+    font-size: 30px;
+    padding: 14px 20px;
+    margin: 8px 15px;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    opacity: 0.9;
+	position:relative;
+    left:350px;
+    border-radius: 10px;
+    /* transition: opacity 1s, transform 0.5s; */
+}
+
+button:hover {
+    opacity:1;
+    /* transform: rotate(360deg); */
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+	margin:20px;
+}
+.container1{
+    display:none;
+	position:relative;
+	
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.top{
+	height:150px;
+	width: 100%;
+	position:relative;
+    background-color:rgba(9, 164, 253, 0.877);
+    font-family: 'Palatino';
+	color:white;
+	}
+.headtext{
+	color: white;
+	font-size:75px;
+	position:relative;
+	top:30px;
+	left:13%
+	}
+form{
+	margin-top:280px;
+	margin-bottom:50px;
+	margin-left:100px;
+    margin-right:100px;
+    border-radius:15px; 
+    background-color:rgb(34, 166, 243);
+    font-family: 'helvetica';
+    /* transform: translateX(200px) */
+    transition: 1s;
+    animation-name: fader;
+    animation-duration: 1.3s;
+}
+
+@keyframes fader{
+    from{ transform: translateX(-1500px)}
+    to{transform: translateX(0px)}
+}
